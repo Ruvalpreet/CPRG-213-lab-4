@@ -1,0 +1,78 @@
+.two-equally-sized {
+    display: flex;
+    background-color: rgb(173, 216, 230);
+    flex-direction: row;
+}
+.two-equally-sized div {
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+}
+#a {
+    margin-left: 0px;
+}
+.three-equally-sized{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+.three-equally-sized div {
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+} 
+#two-a, #two-b {
+    margin-right: 0px;
+}
+.three-unequal-columns {
+    background-color: rgb(173, 216, 230);
+    display: flex;
+    flex-direction: row;
+}
+.three-unequal-columns div {
+    border: 2px solid black;
+    height: 50px;
+    width: 25%;
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+}
+#three-a {
+    width: 50%;
+}
+#three-a, #three-b {
+    margin-right: 0px;
+}
+.four-equally-sized {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 216, 230);
+}
+.four-a{
+     display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+.four-a div{
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    width: 25%;
+    margin: 12px;
+    border: 2px solid black;
+} 
+.four-e{
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    height: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+#four-a, #four-b, #four-c {
+    margin-right: 0px;
+}
+
+
+
+
